@@ -1,6 +1,6 @@
 # tugas_akhir_SpotifyClone_
 Tugas Pemograman  Mobile Judul : SpotifyClone
 ## Nama Kelompok
--Ariel Nurfaiz
--Muhamad Febrian
--Muhammad Rangga
+ 1. Ariel Nurfaiz
+ 2. Muhamad Febrian
+ 3. Muhammad Rangga
