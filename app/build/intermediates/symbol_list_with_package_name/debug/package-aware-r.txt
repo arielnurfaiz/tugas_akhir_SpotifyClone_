@@ -1198,10 +1198,16 @@ id async
 id auto
 id barrier
 id beginning
+id bighits
 id blocking
+id bot_layout
 id bottom
 id bottom_to_top
+id btn_facebook
+id btn_google
+id btn_login
 id buttonPanel
+id cVonrepeat
 id center
 id center_horizontal
 id center_vertical
@@ -1219,6 +1225,7 @@ id coordinator
 id custom
 id customPanel
 id cvListMusic
+id dailylayout
 id decor_content_parent
 id default_activity_button
 id design_bottom_sheet
@@ -1254,6 +1261,7 @@ id icon
 id icon_group
 id ifRoom
 id image
+id image1
 id imgCover
 id imgPause
 id imgPlay
@@ -1265,14 +1273,17 @@ id labeled
 id largeLabel
 id left
 id left_to_right
+id library
 id line1
 id line3
 id listMode
 id list_item
 id llDesc
 id llSeek
+id login
 id masked
 id message
+id mid_layout
 id middle
 id midlayout
 id mini
@@ -1314,6 +1325,7 @@ id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
 id scrollable
+id search
 id search_badge
 id search_bar
 id search_button
@@ -1324,6 +1336,7 @@ id search_mag_icon
 id search_plate
 id search_src_text
 id search_voice_btn
+id sec_layout
 id seekBar
 id select_dialog_listview
 id selected
@@ -1366,6 +1379,7 @@ id text_input_password_toggle
 id textinput_counter
 id textinput_error
 id textinput_helper_text
+id textlayout
 id time
 id titik
 id title
@@ -1385,6 +1399,8 @@ id transition_transform
 id tvBand
 id tvTime
 id tvTitleMusic
+id txt_bighits
+id txt_madeforyou
 id txtonrepeat
 id txtsonglove
 id unchecked
@@ -1454,6 +1470,8 @@ layout abc_tooltip
 layout activity_detail_lagu
 layout activity_home
 layout activity_list_lagu
+layout activity_main
+layout activity_splash_screen
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -1482,6 +1500,7 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
+menu bottom_nav
 mipmap ic_launcher
 mipmap ic_launcher_round
 string abc_action_bar_home_description
