@@ -17,9 +17,6 @@ import com.example.musicplaylist.model.ModelListLagu;
 
 import java.util.List;
 
-/**
- * Created by Azhar Rivaldi on 22-12-2019.
- */
 
 public class ListLaguAdapter extends RecyclerView.Adapter<ListLaguAdapter.ViewHolder> {
 
