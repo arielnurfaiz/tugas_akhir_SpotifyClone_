@@ -1,0 +1,322 @@
+[
+    {
+        "merged": "com.example.musicplaylist.app-merged_res-18:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.musicplaylist.app-main-20:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.musicplaylist.app-merged_res-18:/drawable-xxhdpi_wave_white.png.flat",
+        "source": "com.example.musicplaylist.app-pngs-13:/drawable-xxhdpi/wave_white.png"
+    },
+    {
+        "merged": "com.example.musicplaylist.app-merged_res-18:/drawable-xxxhdpi_ic_baseline_play_arrow_24.xml.flat",
+        "source": "com.example.musicplaylist.app-main-20:/drawable-xxxhdpi/ic_baseline_play_arrow_24.xml"
+    },
+    {
+        "merged": "com.example.musicplaylist.app-merged_res-18:/layout_activity_list_lagu.xml.flat",
+        "source": "com.example.musicplaylist.app-main-20:/layout/activity_list_lagu.xml"
+    },
+    {
+        "merged": "com.example.musicplaylist.app-merged_res-18:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.example.musicplaylist.app-main-20:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.musicplaylist.app-merged_res-18:/drawable-xhdpi_ic_pause.png.flat",
+        "source": "com.example.musicplaylist.app-main-20:/drawable-xhdpi/ic_pause.png"
+    },
+    {
+        "merged": "com.example.musicplaylist.app-merged_res-18:/layout_item_list_music.xml.flat",
+        "source": "com.example.musicplaylist.app-main-20:/layout/item_list_music.xml"
+    },
+    {
+        "merged": "com.example.musicplaylist.app-merged_res-18:/drawable-xxxhdpi_ic_baseline_home_24.xml.flat",
+        "source": "com.example.musicplaylist.app-main-20:/drawable-xxxhdpi/ic_baseline_home_24.xml"
+    },
+    {
+        "merged": "com.example.musicplaylist.app-merged_res-18:/drawable-ldpi_wave_white.png.flat",
+        "source": "com.example.musicplaylist.app-pngs-13:/drawable-ldpi/wave_white.png"
+    },
+    {
+        "merged": "com.example.musicplaylist.app-merged_res-18:/drawable-xxxhdpi_ic_baseline_search_24.xml.flat",
+        "source": "com.example.musicplaylist.app-main-20:/drawable-xxxhdpi/ic_baseline_search_24.xml"
+    },
+    {
+        "merged": "com.example.musicplaylist.app-merged_res-18:/drawable-xxxhdpi_ic_baseline_library_music_24.xml.flat",
+        "source": "com.example.musicplaylist.app-main-20:/drawable-xxxhdpi/ic_baseline_library_music_24.xml"
+    },
+    {
+        "merged": "com.example.musicplaylist.app-merged_res-18:/drawable-xxxhdpi_brokenheart.png.flat",
+        "source": "com.example.musicplaylist.app-main-20:/drawable-xxxhdpi/brokenheart.png"
+    },
+    {
+        "merged": "com.example.musicplaylist.app-merged_res-18:/drawable-xxhdpi_ic_no_image.png.flat",
+        "source": "com.example.musicplaylist.app-main-20:/drawable-xxhdpi/ic_no_image.png"
+    },
+    {
+        "merged": "com.example.musicplaylist.app-merged_res-18:/drawable-xxxhdpi_mix2.jpg.flat",
+        "source": "com.example.musicplaylist.app-main-20:/drawable-xxxhdpi/mix2.jpg"
+    },
+    {
+        "merged": "com.example.musicplaylist.app-merged_res-18:/drawable-hdpi_ic_no_image.png.flat",
+        "source": "com.example.musicplaylist.app-main-20:/drawable-hdpi/ic_no_image.png"
+    },
+    {
+        "merged": "com.example.musicplaylist.app-merged_res-18:/drawable-xxxhdpi_ic_baseline_history_24.xml.flat",
+        "source": "com.example.musicplaylist.app-main-20:/drawable-xxxhdpi/ic_baseline_history_24.xml"
+    },
+    {
+        "merged": "com.example.musicplaylist.app-merged_res-18:/drawable-xxhdpi_ic_play.png.flat",
+        "source": "com.example.musicplaylist.app-main-20:/drawable-xxhdpi/ic_play.png"
+    },
+    {
+        "merged": "com.example.musicplaylist.app-merged_res-18:/drawable-xxxhdpi_wave_white.png.flat",
+        "source": "com.example.musicplaylist.app-pngs-13:/drawable-xxxhdpi/wave_white.png"
+    },
+    {
+        "merged": "com.example.musicplaylist.app-merged_res-18:/drawable-mdpi_wave_white.png.flat",
+        "source": "com.example.musicplaylist.app-pngs-13:/drawable-mdpi/wave_white.png"
+    },
+    {
+        "merged": "com.example.musicplaylist.app-merged_res-18:/drawable-mdpi_ic_pause.png.flat",
+        "source": "com.example.musicplaylist.app-main-20:/drawable-mdpi/ic_pause.png"
+    },
+    {
+        "merged": "com.example.musicplaylist.app-merged_res-18:/drawable-xhdpi_ic_back.png.flat",
+        "source": "com.example.musicplaylist.app-main-20:/drawable-xhdpi/ic_back.png"
+    },
+    {
+        "merged": "com.example.musicplaylist.app-merged_res-18:/drawable-xxxhdpi_titik.png.flat",
+        "source": "com.example.musicplaylist.app-main-20:/drawable-xxxhdpi/titik.png"
+    },
+    {
+        "merged": "com.example.musicplaylist.app-merged_res-18:/drawable-anydpi-v24_wave_white.xml.flat",
+        "source": "com.example.musicplaylist.app-pngs-13:/drawable-anydpi-v24/wave_white.xml"
+    },
+    {
+        "merged": "com.example.musicplaylist.app-merged_res-18:/drawable-xhdpi_wave_white.png.flat",
+        "source": "com.example.musicplaylist.app-pngs-13:/drawable-xhdpi/wave_white.png"
+    },
+    {
+        "merged": "com.example.musicplaylist.app-merged_res-18:/drawable-mdpi_ic_back.png.flat",
+        "source": "com.example.musicplaylist.app-main-20:/drawable-mdpi/ic_back.png"
+    },
+    {
+        "merged": "com.example.musicplaylist.app-merged_res-18:/drawable-mdpi_ic_play.png.flat",
+        "source": "com.example.musicplaylist.app-main-20:/drawable-mdpi/ic_play.png"
+    },
+    {
+        "merged": "com.example.musicplaylist.app-merged_res-18:/drawable-xhdpi_ic_no_image.png.flat",
+        "source": "com.example.musicplaylist.app-main-20:/drawable-xhdpi/ic_no_image.png"
+    },
+    {
+        "merged": "com.example.musicplaylist.app-merged_res-18:/drawable-xxxhdpi_onrepeat.jpg.flat",
+        "source": "com.example.musicplaylist.app-main-20:/drawable-xxxhdpi/onrepeat.jpg"
+    },
+    {
+        "merged": "com.example.musicplaylist.app-merged_res-18:/drawable-xxxhdpi_play.png.flat",
+        "source": "com.example.musicplaylist.app-main-20:/drawable-xxxhdpi/play.png"
+    },
+    {
+        "merged": "com.example.musicplaylist.app-merged_res-18:/drawable-xxxhdpi_lagiviral.png.flat",
+        "source": "com.example.musicplaylist.app-main-20:/drawable-xxxhdpi/lagiviral.png"
+    },
+    {
+        "merged": "com.example.musicplaylist.app-merged_res-18:/drawable-xxxhdpi_mix3.jpg.flat",
+        "source": "com.example.musicplaylist.app-main-20:/drawable-xxxhdpi/mix3.jpg"
+    },
+    {
+        "merged": "com.example.musicplaylist.app-merged_res-18:/drawable-xxxhdpi_ic_search.png.flat",
+        "source": "com.example.musicplaylist.app-main-20:/drawable-xxxhdpi/ic_search.png"
+    },
+    {
+        "merged": "com.example.musicplaylist.app-merged_res-18:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.musicplaylist.app-pngs-13:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.musicplaylist.app-merged_res-18:/font_inter.xml.flat",
+        "source": "com.example.musicplaylist.app-main-20:/font/inter.xml"
+    },
+    {
+        "merged": "com.example.musicplaylist.app-merged_res-18:/drawable-anydpi_ic_no_image.xml.flat",
+        "source": "com.example.musicplaylist.app-main-20:/drawable-anydpi/ic_no_image.xml"
+    },
+    {
+        "merged": "com.example.musicplaylist.app-merged_res-18:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.example.musicplaylist.app-main-20:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.musicplaylist.app-merged_res-18:/drawable-xxhdpi_ic_back.png.flat",
+        "source": "com.example.musicplaylist.app-main-20:/drawable-xxhdpi/ic_back.png"
+    },
+    {
+        "merged": "com.example.musicplaylist.app-merged_res-18:/drawable-xxxhdpi_download.png.flat",
+        "source": "com.example.musicplaylist.app-main-20:/drawable-xxxhdpi/download.png"
+    },
+    {
+        "merged": "com.example.musicplaylist.app-merged_res-18:/drawable-hdpi_wave_white.png.flat",
+        "source": "com.example.musicplaylist.app-pngs-13:/drawable-hdpi/wave_white.png"
+    },
+    {
+        "merged": "com.example.musicplaylist.app-merged_res-18:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.example.musicplaylist.app-main-20:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.musicplaylist.app-merged_res-18:/drawable-xxxhdpi_mix4.jpg.flat",
+        "source": "com.example.musicplaylist.app-main-20:/drawable-xxxhdpi/mix4.jpg"
+    },
+    {
+        "merged": "com.example.musicplaylist.app-merged_res-18:/drawable-anydpi_ic_play.xml.flat",
+        "source": "com.example.musicplaylist.app-main-20:/drawable-anydpi/ic_play.xml"
+    },
+    {
+        "merged": "com.example.musicplaylist.app-merged_res-18:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.example.musicplaylist.app-main-20:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.musicplaylist.app-merged_res-18:/drawable_bg_circle.xml.flat",
+        "source": "com.example.musicplaylist.app-main-20:/drawable/bg_circle.xml"
+    },
+    {
+        "merged": "com.example.musicplaylist.app-merged_res-18:/drawable-xxxhdpi_viralhits.png.flat",
+        "source": "com.example.musicplaylist.app-main-20:/drawable-xxxhdpi/viralhits.png"
+    },
+    {
+        "merged": "com.example.musicplaylist.app-merged_res-18:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.musicplaylist.app-main-20:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.musicplaylist.app-merged_res-18:/drawable-xxxhdpi_ic_headphone.png.flat",
+        "source": "com.example.musicplaylist.app-main-20:/drawable-xxxhdpi/ic_headphone.png"
+    },
+    {
+        "merged": "com.example.musicplaylist.app-merged_res-18:/drawable-xhdpi_ic_play.png.flat",
+        "source": "com.example.musicplaylist.app-main-20:/drawable-xhdpi/ic_play.png"
+    },
+    {
+        "merged": "com.example.musicplaylist.app-merged_res-18:/font_inter_bold.xml.flat",
+        "source": "com.example.musicplaylist.app-main-20:/font/inter_bold.xml"
+    },
+    {
+        "merged": "com.example.musicplaylist.app-merged_res-18:/drawable-xxxhdpi_ic_baseline_arrow_back_ios_24.xml.flat",
+        "source": "com.example.musicplaylist.app-main-20:/drawable-xxxhdpi/ic_baseline_arrow_back_ios_24.xml"
+    },
+    {
+        "merged": "com.example.musicplaylist.app-merged_res-18:/drawable-xxxhdpi_temenaril.png.flat",
+        "source": "com.example.musicplaylist.app-main-20:/drawable-xxxhdpi/temenaril.png"
+    },
+    {
+        "merged": "com.example.musicplaylist.app-merged_res-18:/drawable-xxxhdpi_ic_icons8_facebook.xml.flat",
+        "source": "com.example.musicplaylist.app-main-20:/drawable-xxxhdpi/ic_icons8_facebook.xml"
+    },
+    {
+        "merged": "com.example.musicplaylist.app-merged_res-18:/drawable-mdpi_ic_no_image.png.flat",
+        "source": "com.example.musicplaylist.app-main-20:/drawable-mdpi/ic_no_image.png"
+    },
+    {
+        "merged": "com.example.musicplaylist.app-merged_res-18:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.musicplaylist.app-main-20:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.musicplaylist.app-merged_res-18:/drawable-xxhdpi_ic_pause.png.flat",
+        "source": "com.example.musicplaylist.app-main-20:/drawable-xxhdpi/ic_pause.png"
+    },
+    {
+        "merged": "com.example.musicplaylist.app-merged_res-18:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.example.musicplaylist.app-main-20:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.musicplaylist.app-merged_res-18:/drawable-hdpi_ic_back.png.flat",
+        "source": "com.example.musicplaylist.app-main-20:/drawable-hdpi/ic_back.png"
+    },
+    {
+        "merged": "com.example.musicplaylist.app-merged_res-18:/layout_activity_home.xml.flat",
+        "source": "com.example.musicplaylist.app-main-20:/layout/activity_home.xml"
+    },
+    {
+        "merged": "com.example.musicplaylist.app-merged_res-18:/drawable-xxxhdpi_logospotify.png.flat",
+        "source": "com.example.musicplaylist.app-main-20:/drawable-xxxhdpi/logospotify.png"
+    },
+    {
+        "merged": "com.example.musicplaylist.app-merged_res-18:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.musicplaylist.app-main-20:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.musicplaylist.app-merged_res-18:/drawable-xxxhdpi_dailymix1.jpg.flat",
+        "source": "com.example.musicplaylist.app-main-20:/drawable-xxxhdpi/dailymix1.jpg"
+    },
+    {
+        "merged": "com.example.musicplaylist.app-merged_res-18:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.example.musicplaylist.app-main-20:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.musicplaylist.app-merged_res-18:/drawable-anydpi_ic_pause.xml.flat",
+        "source": "com.example.musicplaylist.app-main-20:/drawable-anydpi/ic_pause.xml"
+    },
+    {
+        "merged": "com.example.musicplaylist.app-merged_res-18:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.example.musicplaylist.app-main-20:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.musicplaylist.app-merged_res-18:/drawable-anydpi_ic_back.xml.flat",
+        "source": "com.example.musicplaylist.app-main-20:/drawable-anydpi/ic_back.xml"
+    },
+    {
+        "merged": "com.example.musicplaylist.app-merged_res-18:/drawable-hdpi_ic_play.png.flat",
+        "source": "com.example.musicplaylist.app-main-20:/drawable-hdpi/ic_play.png"
+    },
+    {
+        "merged": "com.example.musicplaylist.app-merged_res-18:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.musicplaylist.app-main-20:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.musicplaylist.app-merged_res-18:/drawable-xxxhdpi_ic_no_image.xml.flat",
+        "source": "com.example.musicplaylist.app-main-20:/drawable-xxxhdpi/ic_no_image.xml"
+    },
+    {
+        "merged": "com.example.musicplaylist.app-merged_res-18:/drawable-xxxhdpi_ic_google.xml.flat",
+        "source": "com.example.musicplaylist.app-main-20:/drawable-xxxhdpi/ic_google.xml"
+    },
+    {
+        "merged": "com.example.musicplaylist.app-merged_res-18:/drawable-xxxhdpi_ic_music.png.flat",
+        "source": "com.example.musicplaylist.app-main-20:/drawable-xxxhdpi/ic_music.png"
+    },
+    {
+        "merged": "com.example.musicplaylist.app-merged_res-18:/drawable-xxxhdpi_ic_baseline_pause_24.xml.flat",
+        "source": "com.example.musicplaylist.app-main-20:/drawable-xxxhdpi/ic_baseline_pause_24.xml"
+    },
+    {
+        "merged": "com.example.musicplaylist.app-merged_res-18:/drawable-xxxhdpi_spotify.png.flat",
+        "source": "com.example.musicplaylist.app-main-20:/drawable-xxxhdpi/spotify.png"
+    },
+    {
+        "merged": "com.example.musicplaylist.app-merged_res-18:/drawable-xxxhdpi_ic_baseline_settings_24.xml.flat",
+        "source": "com.example.musicplaylist.app-main-20:/drawable-xxxhdpi/ic_baseline_settings_24.xml"
+    },
+    {
+        "merged": "com.example.musicplaylist.app-merged_res-18:/drawable-xxxhdpi_profile.png.flat",
+        "source": "com.example.musicplaylist.app-main-20:/drawable-xxxhdpi/profile.png"
+    },
+    {
+        "merged": "com.example.musicplaylist.app-merged_res-18:/layout_activity_detail_lagu.xml.flat",
+        "source": "com.example.musicplaylist.app-main-20:/layout/activity_detail_lagu.xml"
+    },
+    {
+        "merged": "com.example.musicplaylist.app-merged_res-18:/drawable-xxxhdpi_mysql.png.flat",
+        "source": "com.example.musicplaylist.app-main-20:/drawable-xxxhdpi/mysql.png"
+    },
+    {
+        "merged": "com.example.musicplaylist.app-merged_res-18:/drawable_thumb.xml.flat",
+        "source": "com.example.musicplaylist.app-main-20:/drawable/thumb.xml"
+    },
+    {
+        "merged": "com.example.musicplaylist.app-merged_res-18:/drawable-hdpi_ic_pause.png.flat",
+        "source": "com.example.musicplaylist.app-main-20:/drawable-hdpi/ic_pause.png"
+    },
+    {
+        "merged": "com.example.musicplaylist.app-merged_res-18:/drawable-xxxhdpi_user.png.flat",
+        "source": "com.example.musicplaylist.app-main-20:/drawable-xxxhdpi/user.png"
+    },
+    {
+        "merged": "com.example.musicplaylist.app-merged_res-18:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.musicplaylist.app-main-20:/mipmap-xxxhdpi/ic_launcher_round.png"
+    }
+]
