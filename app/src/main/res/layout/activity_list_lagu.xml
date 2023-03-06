@@ -24,28 +24,19 @@
             android:layout_height="30mm"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="35dp"
-            android:src="@drawable/onrepeat" />
+            android:src="@drawable/onrepeatnew" />
+
+
 
         <TextView
-            android:id="@+id/txtonrepeat"
+            android:layout_marginTop="20dp"
+            android:id="@+id/txtsonglove"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/onrepeat"
             android:layout_marginLeft="20dp"
-            android:layout_marginTop="20dp"
-            android:fontFamily="@font/inter_bold"
-            android:text="On Repeat"
-            android:textColor="@color/white"
-            android:textSize="25dp" />
-
-        <TextView
-            android:id="@+id/txtsonglove"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/txtonrepeat"
-            android:layout_marginLeft="20dp"
-            android:fontFamily="@font/inter"
-            android:textColor="@color/white"
+            android:fontFamily="@font/inter_medium"
+            android:textColor="@color/grey"
             android:text="Songs you love right now" />
 
         <LinearLayout
@@ -55,18 +46,20 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
-            <ImageView
-                android:layout_width="20dp"
-                android:layout_height="20dp"
-                android:src="@drawable/profile"
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
                 android:layout_marginTop="10dp"
-                android:layout_marginLeft="20dp"/>
+                android:fontFamily="@font/inter_medium"
+                android:text="Made for"
+                android:textColor="#858080" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:layout_marginLeft="10dp"
+                android:layout_marginLeft="5dp"
                 android:text="aril"
                 android:fontFamily="@font/inter_bold"
                 android:textColor="@color/white"/>
@@ -80,10 +73,10 @@
             android:text="4 hr 50 min"
             android:layout_below="@id/toplayout"
             android:textSize="10dp"
-            android:fontFamily="@font/inter"
+            android:fontFamily="@font/inter_medium"
             android:layout_marginTop="5dp"
             android:layout_marginLeft="20dp"
-            android:textColor="@color/white"/>
+            android:textColor="@color/grey"/>
 
         <LinearLayout
             android:id="@+id/midlayout"
@@ -95,30 +88,32 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:layout_width="20dp"
-                android:layout_height="20dp"
-                android:src="@drawable/download"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/love"
                 android:layout_gravity="center"/>
 
             <ImageView
-                android:layout_width="20dp"
-                android:layout_height="20dp"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
                 android:layout_marginLeft="10dp"
-                android:src="@drawable/user"
+                android:src="@drawable/downloadnew"
                 android:layout_gravity="center"/>
 
             <ImageView
-                android:layout_width="20dp"
-                android:layout_height="20dp"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
                 android:layout_marginLeft="10dp"
-                android:src="@drawable/titik"
+                android:src="@drawable/dot"
                 android:layout_gravity="center"/>
 
+
+
             <ImageView
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:layout_marginLeft="33mm"
-                android:src="@drawable/play" />
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:layout_marginLeft="26mm"
+                android:src="@drawable/playnew" />
 
         </LinearLayout>
 

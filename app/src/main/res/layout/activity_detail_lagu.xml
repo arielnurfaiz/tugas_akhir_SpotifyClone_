@@ -7,37 +7,93 @@
     android:background="@color/black"
     android:fitsSystemWindows="true">
 
-
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/barLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:elevation="0dp">
 
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar_detail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/black"
+            android:background="@android:color/black"
             app:navigationIcon="@drawable/ic_baseline_arrow_back_ios_24"
-            app:titleTextAppearance="@style/Toolbar.TitleText" />
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6mm"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/inter_medium"
+                        android:text="PLAYING FROM PLAYLIST"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:fontFamily="@font/inter_bold"
+                        android:text="On Repeat"
+                        android:textColor="@color/white"
+
+                        />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/dot"
+                    android:layout_marginLeft="8mm"/>
+
+            </LinearLayout>
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+
+
 
 
 
     <androidx.core.widget.NestedScrollView
+        android:layout_below="@+id/barLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
-        android:layout_below="@+id/toolbar_detail">
+        >
 
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
+
             <ImageView
-                android:layout_marginTop="20dp"
                 android:id="@+id/imgCover"
-                android:layout_width="180dp"
-                android:layout_height="180dp"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
                 android:layout_alignParentTop="true"
                 android:layout_centerInParent="true"
-                android:src="@drawable/ic_music"
-                app:civ_border_color="@color/colorPrimaryDark" />
+                android:layout_marginTop="20dp"
+                app:civ_border_color="@color/black" />
 
             <LinearLayout
                 android:layout_marginTop="30dp"
@@ -71,16 +127,20 @@
                     android:layout_marginTop="10dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:progressBackgroundTint="@color/white"
+                    android:paddingStart="20dp"
+                    android:layout_marginEnd="20dp"
                     app:progressBackgroundColor="@color/white"
-                    app:progressBackgroundWidth="5dp"
-                    app:progressColor="@color/white" />
+                    app:progressColor="@color/white"
+                    android:thumbTint="@color/white"/>
 
                 <TextView
                     android:id="@+id/tvTime"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="0:00"
-                    android:textColor="@color/white"
+                    android:fontFamily="@font/inter_medium"
+                    android:textColor="@color/grey"
                     android:layout_marginStart="20dp"/>
 
 
@@ -89,13 +149,22 @@
 
             </LinearLayout>
 
-
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/llSeek"
+                android:orientation="horizontal"
+                android:gravity="center">
+                <ImageView
+                    android:id="@+id/previousBtn"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/previous"></ImageView>
             <FrameLayout
                 android:layout_width="80dp"
                 android:layout_height="80dp"
-                android:layout_below="@id/llSeek"
                 android:layout_centerInParent="true"
-                android:layout_marginTop="40dp"
                 >
 
                 <ImageView
@@ -103,17 +172,22 @@
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:layout_gravity="center"
-                    android:src="@drawable/ic_baseline_play_arrow_24" />
+                    android:src="@drawable/playbtn" />
 
                 <ImageView
                     android:id="@+id/imgPause"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:layout_gravity="center"
-                    android:src="@drawable/ic_baseline_pause_24" />
-
+                    android:src="@drawable/pausenew" />
             </FrameLayout>
-
+                <ImageView
+                    android:id="@+id/nextBtn"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/next" />
+            </LinearLayout>
         </RelativeLayout>
 
     </androidx.core.widget.NestedScrollView>

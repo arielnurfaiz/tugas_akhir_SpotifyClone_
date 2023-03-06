@@ -17,7 +17,6 @@ import android.view.animation.LinearInterpolator
 import android.view.animation.RotateAnimation
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import androidx.appcompat.widget.AppCompatSeekBar
 import com.androidnetworking.AndroidNetworking
 import com.androidnetworking.common.Priority
 import com.androidnetworking.error.ANError
@@ -32,9 +31,6 @@ import org.json.JSONException
 import org.json.JSONObject
 import java.io.IOException
 import java.util.concurrent.TimeUnit
-
-
-
 
 @Suppress("DEPRECATION")
 class DetailLaguActivity : AppCompatActivity() {
@@ -66,10 +62,7 @@ class DetailLaguActivity : AppCompatActivity() {
         assert(supportActionBar != null)
         supportActionBar!!.setDisplayHomeAsUpEnabled(true)
 
-        progressDialog = ProgressDialog(this)
-        progressDialog!!.setTitle("Mohon Tunggu")
-        progressDialog!!.setCancelable(false)
-        progressDialog!!.setMessage("Sedang menampilkan data...")
+
 
         mHandler = Handler()
 
@@ -79,10 +72,10 @@ class DetailLaguActivity : AppCompatActivity() {
 
             //Get image source
             Glide.with(this)
-                    .load(modelListLagu!!.strCoverLagu)
-                    .centerCrop()
-                    .diskCacheStrategy(DiskCacheStrategy.ALL)
-                    .into(imgCover)
+                .load(modelListLagu!!.strCoverLagu)
+                .centerCrop()
+                .diskCacheStrategy(DiskCacheStrategy.ALL)
+                .into(imgCover)
 
             imgPause.setVisibility(View.GONE)
             imgPlay.setVisibility(View.VISIBLE)
@@ -93,79 +86,78 @@ class DetailLaguActivity : AppCompatActivity() {
     }
 
     private fun getDetailLagu() {
-            progressDialog!!.show()
-            AndroidNetworking.get(Api.DetailMusic)
-                    .addPathParameter("id", idLagu)
-                    .setPriority(Priority.MEDIUM)
-                    .build()
-                    .getAsJSONObject(object : JSONObjectRequestListener {
-                        override fun onResponse(response: JSONObject) {
-                            try {
-                                progressDialog!!.dismiss()
-                                val playerArray = response.getJSONArray("data")
-                                for (i in 0 until playerArray.length()) {
+        AndroidNetworking.get(Api.DetailMusic)
+            .addPathParameter("id", idLagu)
+            .setPriority(Priority.MEDIUM)
+            .build()
+            .getAsJSONObject(object : JSONObjectRequestListener {
+                override fun onResponse(response: JSONObject) {
+                    try {
+                        val playerArray = response.getJSONArray("data")
+                        for (i in 0 until playerArray.length()) {
 
-                                    val temp = playerArray.getJSONObject(i)
+                            val temp = playerArray.getJSONObject(i)
 
-                                    val judulMusic = temp.getString("judulmusic")
-                                    tvTitleMusic!!.text = judulMusic
+                            val judulMusic = temp.getString("judulmusic")
+                            tvTitleMusic!!.text = judulMusic
 
-                                    val namaBand = temp.getString("namaband")
-                                    tvBand!!.text = namaBand
+                            val namaBand = temp.getString("namaband")
+                            tvBand!!.text = namaBand
 
-                                    val urlMusic = temp.getString("linkmp3")
-                                    val mediaPlayer = MediaPlayer()
+                            val urlMusic = temp.getString("linkmp3")
+                            val mediaPlayer = MediaPlayer()
 
-                                    imgPlay!!.setOnClickListener {
-                                        try {
-                                            mediaPlayer.setAudioStreamType(AudioManager.STREAM_MUSIC)
-                                            mediaPlayer.setDataSource(urlMusic)
-                                            mediaPlayer.prepare()
-                                            mediaPlayer.start()
-                                        } catch (e: IOException) {
-                                            e.printStackTrace()
-                                        }
+                            imgPlay!!.setOnClickListener {
 
-                                        imgPlay!!.visibility = View.GONE
-                                        imgPause!!.visibility = View.VISIBLE
-                                        seekBar!!.progress= mediaPlayer.duration / 1000
-
-                                        mRunnable = Runnable {
-                                            val mCurrentPosition = mediaPlayer.currentPosition / 1000
-                                            val duration = mediaPlayer.duration
-                                            @SuppressLint("DefaultLocale") val time = String.format("%02d min, %02d sec",
-                                                    TimeUnit.MILLISECONDS.toMinutes(duration.toLong()),
-                                                    TimeUnit.MILLISECONDS.toSeconds(duration.toLong()) -
-                                                    TimeUnit.MINUTES.toSeconds(TimeUnit.MILLISECONDS.toMinutes(duration.toLong()))
-                                            )
-                                            seekBar!!.progress = mCurrentPosition
-                                            mHandler!!.postDelayed(mRunnable, 1000)
-                                            tvTime!!.text = time
-                                        }
-                                        mHandler!!.postDelayed(mRunnable, 1000)
-                                    }
-                                    imgPause!!.setOnClickListener {
-                                        rotate!!.cancel()
-                                        mediaPlayer.stop()
-                                        mediaPlayer.reset()
-                                        imgPlay!!.visibility = View.VISIBLE
-                                        imgPause!!.visibility = View.GONE
-                                    }
+                                try {
+                                    mediaPlayer.setAudioStreamType(AudioManager.STREAM_MUSIC)
+                                    mediaPlayer.setDataSource(urlMusic)
+                                    mediaPlayer.prepare()
+                                    mediaPlayer.start()
+                                } catch (e: IOException) {
+                                    e.printStackTrace()
                                 }
-                            } catch (e: JSONException) {
-                                e.printStackTrace()
-                                Toast.makeText(this@DetailLaguActivity,
-                                        "Gagal menampilkan data!", Toast.LENGTH_SHORT).show()
+
+                                imgPlay!!.visibility = View.GONE
+                                imgPause!!.visibility = View.VISIBLE
+                                seekBar!!.progress = mediaPlayer.duration / 1000
+
+                                mRunnable = Runnable {
+                                    val mCurrentPosition = mediaPlayer.currentPosition / 1000
+                                    val duration = mediaPlayer.duration
+                                    @SuppressLint("DefaultLocale") val time = String.format("%02d min, %02d sec",
+                                        TimeUnit.MILLISECONDS.toMinutes(duration.toLong()),
+                                        TimeUnit.MILLISECONDS.toSeconds(duration.toLong()) -
+                                                TimeUnit.MINUTES.toSeconds(TimeUnit.MILLISECONDS.toMinutes(duration.toLong()))
+                                    )
+                                    seekBar!!.progress = mCurrentPosition
+                                    mHandler!!.postDelayed(mRunnable, 1000)
+                                    tvTime!!.text = time
+                                }
+                                mHandler!!.postDelayed(mRunnable, 1000)
+                            }
+                            imgPause!!.setOnClickListener {
+                                rotate!!.cancel()
+                                mediaPlayer.stop()
+                                mediaPlayer.reset()
+                                imgPlay!!.visibility = View.VISIBLE
+                                imgPause!!.visibility = View.GONE
                             }
                         }
+                    } catch (e: JSONException) {
+                        e.printStackTrace()
+                        Toast.makeText(this@DetailLaguActivity,
+                            "Gagal menampilkan data!", Toast.LENGTH_SHORT).show()
+                    }
+                }
 
-                        override fun onError(anError: ANError) {
-                            progressDialog!!.dismiss()
-                            Toast.makeText(this@DetailLaguActivity,
-                                    "Tidak ada jaringan internet!", Toast.LENGTH_SHORT).show()
-                        }
-                    })
-        }
+                override fun onError(anError: ANError) {
+                    progressDialog!!.dismiss()
+                    Toast.makeText(this@DetailLaguActivity,
+                        "Tidak ada jaringan internet!", Toast.LENGTH_SHORT).show()
+                }
+            })
+    }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         if (item.itemId == android.R.id.home) {

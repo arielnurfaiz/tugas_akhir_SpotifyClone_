@@ -1,6 +1,6 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.azhar.musicplaylist"
+3    package="com.example.musicplaylist"
 4    android:versionCode="1"
 5    android:versionName="1.0" >
 6
@@ -18,7 +18,7 @@
 14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 15
 16    <application
-16-->C:\Users\user\Downloads\Music-Player-master example\MusicPlaylist\app\src\main\AndroidManifest.xml:6:5-44:19
+16-->C:\Users\user\Downloads\Music-Player-master example\MusicPlaylist\app\src\main\AndroidManifest.xml:6:5-49:19
 17        android:allowBackup="true"
 17-->C:\Users\user\Downloads\Music-Player-master example\MusicPlaylist\app\src\main\AndroidManifest.xml:7:9-35
 18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -38,59 +38,71 @@
 26        android:usesCleartextTraffic="true" >
 26-->C:\Users\user\Downloads\Music-Player-master example\MusicPlaylist\app\src\main\AndroidManifest.xml:13:9-44
 27        <activity
-27-->C:\Users\user\Downloads\Music-Player-master example\MusicPlaylist\app\src\main\AndroidManifest.xml:15:9-26:20
-28            android:name="com.example.musicplaylist.activities.SplashScreenActivity"
-28-->C:\Users\user\Downloads\Music-Player-master example\MusicPlaylist\app\src\main\AndroidManifest.xml:16:13-60
-29            android:exported="true" >
-29-->C:\Users\user\Downloads\Music-Player-master example\MusicPlaylist\app\src\main\AndroidManifest.xml:17:13-36
-30            <intent-filter>
-30-->C:\Users\user\Downloads\Music-Player-master example\MusicPlaylist\app\src\main\AndroidManifest.xml:18:13-22:29
-31                <action android:name="android.intent.action.MAIN" />
-31-->C:\Users\user\Downloads\Music-Player-master example\MusicPlaylist\app\src\main\AndroidManifest.xml:19:17-69
-31-->C:\Users\user\Downloads\Music-Player-master example\MusicPlaylist\app\src\main\AndroidManifest.xml:19:25-66
-32
-33                <category android:name="android.intent.category.LAUNCHER" />
-33-->C:\Users\user\Downloads\Music-Player-master example\MusicPlaylist\app\src\main\AndroidManifest.xml:21:17-77
-33-->C:\Users\user\Downloads\Music-Player-master example\MusicPlaylist\app\src\main\AndroidManifest.xml:21:27-74
-34            </intent-filter>
-35
-36            <meta-data
-36-->C:\Users\user\Downloads\Music-Player-master example\MusicPlaylist\app\src\main\AndroidManifest.xml:23:13-25:36
-37                android:name="android.app.lib_name"
-37-->C:\Users\user\Downloads\Music-Player-master example\MusicPlaylist\app\src\main\AndroidManifest.xml:24:17-52
-38                android:value="" />
-38-->C:\Users\user\Downloads\Music-Player-master example\MusicPlaylist\app\src\main\AndroidManifest.xml:25:17-33
-39        </activity>
-40        <activity
-40-->C:\Users\user\Downloads\Music-Player-master example\MusicPlaylist\app\src\main\AndroidManifest.xml:27:9-33:20
-41            android:name="com.example.musicplaylist.activities.HomeActivity"
-41-->C:\Users\user\Downloads\Music-Player-master example\MusicPlaylist\app\src\main\AndroidManifest.xml:28:13-52
-42            android:exported="false" >
-42-->C:\Users\user\Downloads\Music-Player-master example\MusicPlaylist\app\src\main\AndroidManifest.xml:29:13-37
+27-->C:\Users\user\Downloads\Music-Player-master example\MusicPlaylist\app\src\main\AndroidManifest.xml:14:9-20:20
+28            android:name="com.example.musicplaylist.SplashScreenSecActivity"
+28-->C:\Users\user\Downloads\Music-Player-master example\MusicPlaylist\app\src\main\AndroidManifest.xml:15:13-52
+29            android:exported="false" >
+29-->C:\Users\user\Downloads\Music-Player-master example\MusicPlaylist\app\src\main\AndroidManifest.xml:16:13-37
+30            <meta-data
+30-->C:\Users\user\Downloads\Music-Player-master example\MusicPlaylist\app\src\main\AndroidManifest.xml:17:13-19:36
+31                android:name="android.app.lib_name"
+31-->C:\Users\user\Downloads\Music-Player-master example\MusicPlaylist\app\src\main\AndroidManifest.xml:18:17-52
+32                android:value="" />
+32-->C:\Users\user\Downloads\Music-Player-master example\MusicPlaylist\app\src\main\AndroidManifest.xml:19:17-33
+33        </activity>
+34        <activity
+34-->C:\Users\user\Downloads\Music-Player-master example\MusicPlaylist\app\src\main\AndroidManifest.xml:21:9-33:20
+35            android:name="com.example.musicplaylist.activities.SplashScreenActivity"
+35-->C:\Users\user\Downloads\Music-Player-master example\MusicPlaylist\app\src\main\AndroidManifest.xml:22:13-60
+36            android:exported="true" >
+36-->C:\Users\user\Downloads\Music-Player-master example\MusicPlaylist\app\src\main\AndroidManifest.xml:23:13-36
+37            <intent-filter>
+37-->C:\Users\user\Downloads\Music-Player-master example\MusicPlaylist\app\src\main\AndroidManifest.xml:24:13-28:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->C:\Users\user\Downloads\Music-Player-master example\MusicPlaylist\app\src\main\AndroidManifest.xml:25:17-69
+38-->C:\Users\user\Downloads\Music-Player-master example\MusicPlaylist\app\src\main\AndroidManifest.xml:25:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->C:\Users\user\Downloads\Music-Player-master example\MusicPlaylist\app\src\main\AndroidManifest.xml:27:17-77
+40-->C:\Users\user\Downloads\Music-Player-master example\MusicPlaylist\app\src\main\AndroidManifest.xml:27:27-74
+41            </intent-filter>
+42
 43            <meta-data
-43-->C:\Users\user\Downloads\Music-Player-master example\MusicPlaylist\app\src\main\AndroidManifest.xml:23:13-25:36
+43-->C:\Users\user\Downloads\Music-Player-master example\MusicPlaylist\app\src\main\AndroidManifest.xml:17:13-19:36
 44                android:name="android.app.lib_name"
-44-->C:\Users\user\Downloads\Music-Player-master example\MusicPlaylist\app\src\main\AndroidManifest.xml:24:17-52
+44-->C:\Users\user\Downloads\Music-Player-master example\MusicPlaylist\app\src\main\AndroidManifest.xml:18:17-52
 45                android:value="" />
-45-->C:\Users\user\Downloads\Music-Player-master example\MusicPlaylist\app\src\main\AndroidManifest.xml:25:17-33
+45-->C:\Users\user\Downloads\Music-Player-master example\MusicPlaylist\app\src\main\AndroidManifest.xml:19:17-33
 46        </activity>
-47        <activity android:name="com.example.musicplaylist.activities.DetailLaguActivity" />
-47-->C:\Users\user\Downloads\Music-Player-master example\MusicPlaylist\app\src\main\AndroidManifest.xml:34:9-67
-47-->C:\Users\user\Downloads\Music-Player-master example\MusicPlaylist\app\src\main\AndroidManifest.xml:34:19-64
-48        <activity
-48-->C:\Users\user\Downloads\Music-Player-master example\MusicPlaylist\app\src\main\AndroidManifest.xml:36:9-39:20
-49            android:name="com.example.musicplaylist.activities.ListLaguActivity"
-49-->C:\Users\user\Downloads\Music-Player-master example\MusicPlaylist\app\src\main\AndroidManifest.xml:36:19-62
-50            android:exported="false" >
-50-->C:\Users\user\Downloads\Music-Player-master example\MusicPlaylist\app\src\main\AndroidManifest.xml:37:13-37
-51        </activity>
-52
-53        <meta-data
-53-->C:\Users\user\Downloads\Music-Player-master example\MusicPlaylist\app\src\main\AndroidManifest.xml:41:9-43:57
-54            android:name="preloaded_fonts"
-54-->C:\Users\user\Downloads\Music-Player-master example\MusicPlaylist\app\src\main\AndroidManifest.xml:42:13-43
-55            android:resource="@array/preloaded_fonts" />
-55-->C:\Users\user\Downloads\Music-Player-master example\MusicPlaylist\app\src\main\AndroidManifest.xml:43:13-54
-56    </application>
-57
-58</manifest>
+47        <activity
+47-->C:\Users\user\Downloads\Music-Player-master example\MusicPlaylist\app\src\main\AndroidManifest.xml:34:9-40:20
+48            android:name="com.example.musicplaylist.activities.HomeActivity"
+48-->C:\Users\user\Downloads\Music-Player-master example\MusicPlaylist\app\src\main\AndroidManifest.xml:35:13-52
+49            android:exported="false" >
+49-->C:\Users\user\Downloads\Music-Player-master example\MusicPlaylist\app\src\main\AndroidManifest.xml:36:13-37
+50            <meta-data
+50-->C:\Users\user\Downloads\Music-Player-master example\MusicPlaylist\app\src\main\AndroidManifest.xml:17:13-19:36
+51                android:name="android.app.lib_name"
+51-->C:\Users\user\Downloads\Music-Player-master example\MusicPlaylist\app\src\main\AndroidManifest.xml:18:17-52
+52                android:value="" />
+52-->C:\Users\user\Downloads\Music-Player-master example\MusicPlaylist\app\src\main\AndroidManifest.xml:19:17-33
+53        </activity>
+54        <activity android:name="com.example.musicplaylist.activities.DetailLaguActivity" />
+54-->C:\Users\user\Downloads\Music-Player-master example\MusicPlaylist\app\src\main\AndroidManifest.xml:41:9-67
+54-->C:\Users\user\Downloads\Music-Player-master example\MusicPlaylist\app\src\main\AndroidManifest.xml:41:19-64
+55        <activity
+55-->C:\Users\user\Downloads\Music-Player-master example\MusicPlaylist\app\src\main\AndroidManifest.xml:42:9-44:49
+56            android:name="com.example.musicplaylist.activities.ListLaguActivity"
+56-->C:\Users\user\Downloads\Music-Player-master example\MusicPlaylist\app\src\main\AndroidManifest.xml:43:13-56
+57            android:exported="false" />
+57-->C:\Users\user\Downloads\Music-Player-master example\MusicPlaylist\app\src\main\AndroidManifest.xml:44:13-37
+58
+59        <meta-data
+59-->C:\Users\user\Downloads\Music-Player-master example\MusicPlaylist\app\src\main\AndroidManifest.xml:46:9-48:57
+60            android:name="preloaded_fonts"
+60-->C:\Users\user\Downloads\Music-Player-master example\MusicPlaylist\app\src\main\AndroidManifest.xml:47:13-43
+61            android:resource="@array/preloaded_fonts" />
+61-->C:\Users\user\Downloads\Music-Player-master example\MusicPlaylist\app\src\main\AndroidManifest.xml:48:13-54
+62    </application>
+63
+64</manifest>

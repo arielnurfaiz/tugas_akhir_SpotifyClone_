@@ -47,10 +47,7 @@ class ListLaguActivity : AppCompatActivity(), onSelectData {
             window.statusBarColor = Color.TRANSPARENT
         }
 
-        progressDialog = ProgressDialog(this)
-        progressDialog!!.setTitle("Mohon Tunggu")
-        progressDialog!!.setCancelable(false)
-        progressDialog!!.setMessage("Sedang menampilkan data...")
+
 
         rvListMusic!!.setHasFixedSize(true)
         rvListMusic!!.setLayoutManager(LinearLayoutManager(this))
@@ -60,14 +57,12 @@ class ListLaguActivity : AppCompatActivity(), onSelectData {
     }
 
     private fun getListMusic() {
-            progressDialog!!.show()
             AndroidNetworking.get(Api.ListMusic)
                     .setPriority(Priority.MEDIUM)
                     .build()
                     .getAsJSONObject(object : JSONObjectRequestListener {
                         override fun onResponse(response: JSONObject) {
                             try {
-                                progressDialog!!.dismiss()
                                 val playerArray = response.getJSONArray("post")
                                 for (i in 0 until playerArray.length()) {
                                     if (i > 3) {
@@ -89,7 +84,6 @@ class ListLaguActivity : AppCompatActivity(), onSelectData {
                         }
 
                         override fun onError(anError: ANError) {
-                            progressDialog!!.dismiss()
                             Toast.makeText(this@ListLaguActivity,
                                     "Tidak ada jaringan internet!", Toast.LENGTH_SHORT).show()
                         }
